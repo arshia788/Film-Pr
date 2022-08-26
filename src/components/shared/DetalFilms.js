@@ -16,10 +16,10 @@ const useStyles= makeStyles((theme)=>({
     
     container:{
         background:'black',
-        minHeight:'140vh',
+        height:'190vh',
         paddingTop:theme.spacing(1),
         [theme.breakpoints.down('xs')]:{
-            height:'430vh',
+            height:'350vh',
         },
 
         [theme.breakpoints.down('md')]:{
