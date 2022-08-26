@@ -109,15 +109,7 @@ const UpSite = () => {
                 </Typography>    
 
 
-                <div className={classes.next}>
-
-                    <Link  to='/films/topfilms' className={classes.link}>
-                        see more 
-                    </Link>
-
-                    <DoubleArrowIcon size='small' className={classes.icon} />  
-
-                </div>
+                
 
             </div>
 
@@ -130,14 +122,7 @@ const UpSite = () => {
                     our love films    
                 </Typography>    
 
-                <div className={classes.next}>
-                    <Link  to='/films/lovefilms' className={classes.link}>
-                        see more 
-                    </Link>
-
-                    <DoubleArrowIcon size='small' className={classes.icon} />  
-
-                </div>  
+                
 
 
             </div>
@@ -152,13 +137,7 @@ const UpSite = () => {
                     our action films    
                 </Typography>    
 
-                <div className={classes.next}>
-                    <Link  to='/films/actionfilms' className={classes.link}>
-                        see more 
-                    </Link>
-
-                    <DoubleArrowIcon size='small' className={classes.icon} />  
-                </div>  
+                  
 
             </div>
             

@@ -8,7 +8,6 @@ import Landing from './components/Landing';
 import FilmContextProvider from './context/FilmContextProvider';
 import DetailFilm from './components/shared/DetalFilms';
 import Footer from './components/Footer';
-import topfilms from './components/tops/TopFilms';
 
 
 const App = () => {    
@@ -21,7 +20,6 @@ const App = () => {
                     <ScrollINdicator />
 
                         <Switch>
-                            <Route path='/films/topfilms' component={topfilms}/>
                             <Route path='/films/:id' component={DetailFilm}/>
                             <Route path='/films' component={Landing}/>
                             <Redirect to='/films'/>

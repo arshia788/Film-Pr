@@ -19,7 +19,11 @@ const useStyles= makeStyles((theme)=>({
         minHeight:'140vh',
         paddingTop:theme.spacing(1),
         [theme.breakpoints.down('xs')]:{
-            minHeight:'430vh',
+            height:'430vh',
+        },
+
+        [theme.breakpoints.down('md')]:{
+            minHeight:'240vh',
         }
     }
     ,
@@ -146,8 +150,9 @@ const useStyles= makeStyles((theme)=>({
         justifyContent:'space-between',
         alignItems:'center',
         paddingBottom:"10px",
-        [theme.breakpoints.down('sm')]:{
+        [theme.breakpoints.down('xs')]:{
             display:'block',
+            // paddingBottom:"100px"
         }
     }
 
