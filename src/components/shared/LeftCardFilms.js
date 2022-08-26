@@ -16,7 +16,7 @@ const useStyles=makeStyles((theme)=>({
         border:'1px solid #eee',
         padding:'25px 21px',
         [theme.breakpoints.down('sm')]:{
-        padding:'39.5px 10px',
+        padding:'42px 10px',
         }
     }
     ,
