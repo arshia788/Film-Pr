@@ -50,12 +50,9 @@ const useStyles=makeStyles((theme)=>({
         left:'20%',
         [theme.breakpoints.down('sm')]:{
             width:'47%',
-            left:'51%',
+            left:'50%',
         },
         
-        // [theme.breakpoints.down('md')]:{
-        //     left:'30%'
-        // }
     },
 
     titleMark:{
