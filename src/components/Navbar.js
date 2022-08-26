@@ -19,7 +19,8 @@ const useStyles=makeStyles ((theme)=>({
 
     link:{
         textDecoration:'none',
-        color:'crimson'
+        color:'crimson',
+        borderBottom:'1px solid crimson'
     },
 
 
@@ -55,9 +56,9 @@ const Navbar = () => {
                 <Link className={classes.link} to='/films'>films</Link>
             </Typography>
 
-            <ul className={classes.list}>
+            {/* <ul className={classes.list}>
                 <li><Link className={classes.linkLi} to='/films/all'>all</Link>  </li>
-            </ul>
+            </ul> */}
 
         </div>
     );

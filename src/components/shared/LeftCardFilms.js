@@ -15,8 +15,8 @@ const useStyles=makeStyles((theme)=>({
         marginTop:'20px',
         border:'1px solid #eee',
         padding:'25px 21px',
-        [theme.breakpoints.down('sm')]:{
-        padding:'42px 10px',
+        [theme.breakpoints.down('xs')]:{
+        padding:'57px 10px',
         }
     }
     ,
@@ -24,8 +24,9 @@ const useStyles=makeStyles((theme)=>({
     title:{
         color:'#fff',
         fontSize:'1.7rem',
-        [theme.breakpoints.down('sm')]:{
-            fontSize:'1.2rem'
+        [theme.breakpoints.down('xs')]:{
+            fontSize:'1.1rem',
+            // width:'50%'
         }
     }
     ,
@@ -50,7 +51,8 @@ const useStyles=makeStyles((theme)=>({
         left:'20%',
         [theme.breakpoints.down('sm')]:{
             width:'47%',
-            left:'50%',
+            left:'51%',
+            top:'10%',
         },
         
     },
@@ -69,8 +71,8 @@ const useStyles=makeStyles((theme)=>({
     mark:{
         color:'orange',
         fontSize:'1.5rem',
-        [theme.breakpoints.down('sm')]:{
-            fontSize:'1.2rem'
+        [theme.breakpoints.down('xs')]:{
+            fontSize:'1rem'
         }
     },
 

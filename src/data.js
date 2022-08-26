@@ -57,7 +57,7 @@ const film=[
         title:'la la land',
         category:'love',
         image:lalaland,
-        info:'While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.',
+        info:'While navigating their careers in Los Angeles, a pianist and an actress fall in love.',
 
         actors: ['Al pachino', 'marlon brando', 'james caan', 'diane keaton'],
         mark: '8.1',
